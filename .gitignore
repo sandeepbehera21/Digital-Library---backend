@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+logs/
+hs_err_pid*
+
+# Build outputs
+/out/
+
+# Local env & secrets (do not commit real creds)
+.env
+.env.*
+src/main/resources/application-*.local.properties
+
+# Maven wrappers (jar already ignored above), caches
+.mvn/wrapper/*.properties
+.mvn/repository/
